@@ -1,0 +1,234 @@
+:root{
+    --pr-color : #F3D0B3;
+    
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    z-index: 3;
+}
+
+*{
+    z-index: 2;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav-link{
+    font-size: 16px;
+}
+
+.nav-link.active{
+    font-weight: 600;
+    color: #F16140;
+
+}
+
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color: #ffff;
+    color: #F16140 ;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+/* Herro section*/
+#hero{
+    background-color: #F3D0B3;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.img-hero{
+    height: 100%;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.hiro-tagline h2{
+ color: #2E2D53;
+ font-weight: 700;
+ font-size: 50px;
+ margin-top: 50px;
+}
+
+.hiro-tagline p{
+    font-size: 16px;
+    color: #3D3D3D;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+/*servis Section*/
+
+#service{
+    padding: 100px 0;
+}
+
+h3{
+    font-size: 46px;
+    font-weight: 500;
+    color: #2E2D53;
+
+}
+
+.sub-tittle{
+    font-size: 14px;
+    color: #000;
+
+}
+
+.card-service{
+    width: 100%;
+    height: 313px;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0,005);
+
+    transition: all .2s ease-in;
+}
+
+.circle-icon{
+    width: 70px;
+    height: 70px;
+    background-color: #e79d8c;
+    border-radius: 50%;
+
+    transition: all .1s ease-in;
+
+}
+
+.card-service h4{
+    color: #000;
+    font-size: 22px;
+
+    transition: all .2s ease-in;
+
+}
+
+.card-service p{
+    color: #000;
+    font-size: 14px;
+
+    transition: all .3s ease-in;
+}
+
+/* Hover*/
+
+.card-service:hover{
+    width: 100%;
+    height: 313px;
+    border-radius: 8px;
+    background-color: #e79d8c;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0,005);
+
+    transition: all .2s ease-in;
+}
+
+.card-service:hover .circle-icon{
+    background-color: #fff;
+    transition: all .1s ease-in;
+}
+
+
+
+.card-service:hover h4{
+    color: #fff;
+    font-size: 22px;
+
+    transition: all .2s ease-in;
+
+
+}
+
+.card-service:hover p{
+    color: #fff;
+    font-size: 14px;
+
+    transition: all .3s ease-in;
+}
+
+/*layanan section*/
+
+
+/*flooping*/
+#footer{
+    margin-top: 150px;
+    padding: 120px 0 120px 0;
+
+}
+
+#footer.overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#footer.container{
+    padding: 120px 0 120px 0;  
+}
+
+#footer h3{
+    color: #2E2D53;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo h5{
+    color: #000;
+    text-align: justify;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.kontak h6 {
+    color: #000;
+    text-align: justify;
+    font-family: Post No Bills Colombo ExtraBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.kontak a {
+    color: #000;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+    margin-right: 16px;
+    width: 237px;
+    display: inline-block;
+}
+
+.card-footer{
+    width: 100%;
+    height: 455px;
+    background-color: #f4c1c1;
+    border-radius: 5px;
+    padding:  52px ;
+}
